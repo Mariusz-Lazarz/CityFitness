@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  radial-gradient(#c7c7c7 1.8px, transparent 1.8px), radial-gradient(#c7c7c7 1.8px, #ffffff 1.8px);
+    background-size: 72px 72px;
+    background-position: 0 0,36px 36px;
+
+}
+/* logo */
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+
+.logo{
+    background-image: url(/img/logo.png);
+    background-position: center;
+    background-size: contain;
+    text-indent: -10000px;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 200px;
+}
+
+nav{
+    height: 8vh;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.sticky{
+    background: rgba(0, 0, 0, 0.801);
+}
+
+nav i{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+/*  wrapper  */
+
+
+
+
+/* intro */
+#intro{
+    color:white;
+    padding: 100px 30px;
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.788),rgba(0, 0, 0, 0.822)) , url(/img/shop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: rgb(253, 164, 123);
+     max-width: 1000px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro img{
+    width: 100%;
+    max-height: 300px;
+}
+
+.whey-desc{
+    max-width: 40%;
+}
+
+.whey-desc h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.whey-desc p{
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+
+
+/* intro button */
+
+
+.buy-now {background-image: linear-gradient(to right, #ddd6f3 0%, #faaca8  51%, #ddd6f3  100%)}
+.buy-now {
+    max-width: 200px;
+    cursor: pointer;
+    border: none;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   display: block;
+ }
+
+ .buy-now:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+ @media screen and (max-width: 768px){
+    #intro{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    #intro img{
+        height: 200px;
+    }
+    .whey-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+}
+
+
+
+
+/* offer section */
+
+#offer {
+    padding: 100px 0px;
+    background-color: white;
+    max-width: 1000px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+button{
+    border: none;
+    background: transparent;
+}
+
+
+.offer-box{
+    text-align: center;
+}
+.offer-box img{
+    width: 150px;
+    height: 150px;
+}
+
+.offer-box h1{
+    font-size: 20px;
+}
+
+.offer-box p{
+    font-size: 25px;
+}
+
+.offer-box i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px){
+    #offer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* cart side bar */
+
+nav{
+    position: relative;
+}
+
+.cart-bar{
+    position: relative;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 92vh;
+    min-width: 400px;
+    position: absolute;
+    top: 8vh;
+    right: 0px;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    -webkit-transition: transform 0.5s ease-in;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-left:  1px solid black;
+}
+
+.cart-bar.slide{
+    transform: translateX(0);
+}
+
+
+/* cart style */
+
+.cart-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid black;
+
+}
+
+.cart-item img{
+    width: 80px;
+    height: 80px;
+}
+
+.cart-item h1{
+    font-size: 15px;
+}
+
+.cart-item input{
+    width: 35px;
+}
+
+.cart-item i{
+    color: rgba(255, 0, 0, 0.479);
+    font-size: 15px;
+}
+
+
+.check{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.check p{
+    font-size: 25px;
+}
+
+
+.check-out {background-image: linear-gradient(to right, #614385 0%, #516395  51%, #614385  100%)}
+.check-out {
+   margin: 10px;
+   padding: 15px 30px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   cursor: pointer;
+ }
+
+ .check-out:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+

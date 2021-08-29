@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CityFitness</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <script
+      src="https://kit.fontawesome.com/b160ac93e6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html"><h1 class="logo">Logoo</h1></a>
+        <ul class="nav-ul" id="nav-ul">
+          <li class="link"><a href="#start">Start</a></li>
+          <li class="link"><a href="#about">O nas</a></li>
+          <li class="link"><a href="#offer-intro">Oferta</a></li>
+          <li class="link"><a href="#contactus">Kontakt</a></li>
+          <li class="link"><a href="/shop.html
+  ">Sklep</a></li>
+        </ul>
+        <div class="burger" id="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="start" class="start">
+      <div class="start-wrap">
+        <div class="title">
+          <h1>Zrób formę na lato odbierz 7 dni darmowej diety.</h1>
+        </div>
+        <div class="calculator">
+          <form>
+            <span>Waga w kg:</span>
+            <input type="number" name="Weight" id="kg" />
+            <button id="btn-submit" type="button">Start</button>
+            <p class="error"></p>
+          </form>
+        </div>
+        <div class="diet">
+          <div class="text-calories"></div>
+          <div class="diets">
+            <div class="diet-box diet-1500">
+              <img src="/img/one.jpg" alt="dieta1500" />
+              <a href="/diet1500.html
+    " class="btn-1500">1500 kcal</a>
+            </div>
+            <div class="diet-box diet-2000">
+              <img src="/img/two.jpg"  alt="dieta2000" />
+              <a href="/diet1500.html
+    " class="btn-2000">2000 kcal</a>
+            </div>
+            <div class="diet-box diet-2500">
+              <img src="/img/three.jpg" alt="dieta2500"  />
+              <a href="/diet1500.html
+    " class="btn-2500">2500 kcal</a>
+            </div>
+            <div class="diet-box diet-3000">
+              <img src="/img/four.jpg"  alt="dieta3000" />
+              <!-- <a href="diet.html" class="btn-3000">3000 kcal</a> -->
+              <a href="/diet1500.html
+    " class="btn-3000">3000 kcal</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="arrow">
+      <a href="#about"><i class="fas fa-arrow-circle-down"></i></a>
+    </div>
+    <section id="about" class="about">
+      <div class="aboutus">
+        <div class="aboutus-title">
+          <h1>O nas ...</h1>
+          <div></div>
+        </div>
+        <div class="offer">
+          <div class="slide-in offer-text">
+            <h1 class="offer-title">Treningi personalne</h1>
+            <p class="offer-info">
+              W naszej ofercie znajdziesz również treningi personalne. Po
+              wstępnym przeprowadzeniu wywiadu z trenerem personalnym dostajecie
+              spersonalizowany plan treningowy dostosowany pod Was. Nie wiesz
+              jak wykonywać dane ćwiczenie? Skonsultuj się z trenerem lub
+              skorzystaj z filmów instuktażowych zamieszczonych na stronie.
+            </p>
+          </div>
+          <div class="offer-img">
+            <img src="/img/offer1.jpg" class="slide-in img-one" alt="trening-personalny"/>
+            <img src="/img/offer.jpg" class="slide-in img-two" alt="trening-personalny" />
+          </div>
+        </div>
+        <div class="offer-reverse">
+          <div class="slide-in offer-text-reverse">
+            <h1 class="offer-title">Plany dietetyczne</h1>
+            <p class="offer-info">
+              Nie wiesz jak zacząć zdrowo się odżywiać? Nie lubisz gotować lub
+              sprawia Ci to problem? Z nami się to zmieni! Oferujemy plany
+              dietetyczne dla każdego. Posiłki zamieszczone w ofercie są proste
+              w przygotowaniu oraz nie wymagają od Was wielogodzinnego stania w
+              kuchni. Różnorodność posiłków oraz ogólnodostępne produkty
+              sprawią, że dieta stanie się prostsza niż myślisz. Do dzieła!
+            </p>
+          </div>
+          <div class="offer-img-reverse">
+            <img src="/img/offer2.jpeg" class="slide-in img-one" alt="dieta" />
+            <img src="/img/offer3.jpeg" class="slide-in img-two-reverse" alt="dieta"  />
+          </div>
+        </div>
+        <div class="offer">
+          <div class="slide-in offer-text">
+            <h1 class="offer-title">Plany treningowe</h1>
+            <p class="offer-info">
+              Jesteś na początku swojej drogi do osiągnięcia wymarzonej
+              sylwetki, ale nie wiesz od czego zacząć? Odpowiedni plan
+              treningowy i dobrze zbilansowana dieta pozwoli uzyskać Ci
+              najlepsze efekty. Skorzystaj z dostępnych na stronie gotowych
+              planów treningowych, aby zrobić pierwszy krok to osiągnięcia celu.
+              Możesz również skorzystać z pomocy trenerów personalnych, którzy
+              odpowiedzą na Twoje pytania i rozwieją wszelkie wątpliwości
+              dotyczące budowania sylwetki.
+            </p>
+          </div>
+          <div class="offer-img">
+            <img src="/img/offer4.jpg" class="slide-in img-one" alt="trening"/>
+            <img src="/img/offer5.jpg" class="slide-in img-two" alt="trening2" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="offer-intro">
+      <div class="offer-intro-wrap">
+        <div class="check-offer">
+          <q>Można wiecznie marzyć o zmianie albo postawić sobie cel...</q>
+          <a href="/offer.html
+" class="btn-offer">Sprawdź oferty</a>
+        </div>
+      </div>
+    </section>
+    <footer id="contactus">
+      <div class="footer-wrap">
+        <div class="message">
+          <h3>Przywitaj się</h3>
+          <form
+            class="footer-form"
+            action=""
+            method="POST"
+          >
+            <input
+              name="name"
+              type="text"
+              class="feedback-input name"
+              placeholder="Imię"
+            />
+            <div class="name-error"></div>
+            <input
+              name="email"
+              type="text"
+              class="feedback-input email"
+              placeholder="Email"
+            />
+            <div class="email-error"></div>
+            <textarea
+              name="text"
+              class="feedback-input mess"
+              placeholder="Wiadomość"
+            ></textarea>
+            <div class="mess-error"></div>
+            <input class="footer-btn" type="submit" value="WYŚLIJ" />
+            <input type="hidden" name="_captcha" value="false" />
+          </form>
+        </div>
+        <div class="info">
+          <div class="contact-info">
+            <h3>Skontaktuj się z nami</h3>
+            <p class="email">
+              <i class="fas fa-mail-bulk"></i> randomEMAIL@gmail.com
+            </p>
+            <p class="phone">
+              <i class="fas fa-phone-square-alt"></i> +48 123 456 789
+            </p>
+          </div>
+          <div class="social">
+            <h3>Social media</h3>
+            <div class="social-media">
+              <a href="https://pl-pl.facebook.com/" target="blank_space"
+                ><h1 class="fb">Facebook</h1></a
+              >
+              <a href="https://twitter.com/?lang=pl" target="blank_space"
+                ><h1 class="tw">Twitter</h1></a
+              >
+              <a href="https://www.instagram.com/" target="blank_space"
+                ><h1 class="ig">Instagram</h1></a
+              >
+              <a href="https://pl.linkedin.com/" target="blank_space"
+                ><h1 class="ld">Linkedin</h1></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <?ht include 'footer.ht' ?> 
+
+    <script src="/js/footer.js"></script>
+    <script src="/js/nav.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

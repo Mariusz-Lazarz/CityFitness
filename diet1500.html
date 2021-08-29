@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CityFitness</title>
+
+    <!-- <link rel="stylesheet" href="css/main.css" />  -->
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/diet.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <script
+      src="https://kit.fontawesome.com/b160ac93e6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+
+
+
+
+  <body>
+    <?php include 'header.php'?> 
+    <header>
+      <nav>
+        <a href="/index.html"><h1 class="logo">Logoo</h1></a>
+        <ul class="nav-ul" id="nav-ul">
+          <li class="link"><a href="/index.html#start">Start</a></li>
+          <li class="link"><a href="/index.html#about">O nas</a></li>
+          <li class="link"><a href="/offer.html">Oferta</a></li>
+          <li class="link"><a href="#contactus">Kontakt</a></li>
+          <li class="link"><a href="/shop.html">Sklep</a></li>
+        </ul>
+        <div class="burger" id="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <section class="diet-menu">
+      <div class="btn-container">
+        <button type="button" class="btn"  data-id="1"> 1 </button>
+        <button type="button" class="btn"  data-id="2">2</button>
+        <button type="button" class="btn"  data-id="3"> 3</button>
+        <button type="button" class=   "btn"  data-id=  "4"> 4</button>
+        <button typ e="button" class="btn"  data-id="5"> 5</button>
+        <button type="button" class="btn"  data-id="6"> 6</button>
+        <button typ   ="button" class="btn"  data-id="7"> 7</button>
+      </div>
+      <div class="diet-title"></div>
+      <div class="meal-container">
+      </div>
+      
+    </section>
+    <footer id="contactus">
+      <div class="footer-wrap">
+        <div class="message">
+          <h3>Przywitaj się</h3>
+          <form
+            class="footer-form"
+            action=""
+            method="POST"
+          >
+            <input
+              name="name"
+              type="text"
+              class="feedback-input name"
+              placeholder="Imię"
+            />
+            <div class="name-error"></div>
+            <input
+              name="email"
+              type="text"
+              class="feedback-input email"
+              placeholder="Email"
+            />
+            <div class="email-error"></div>
+            <textarea
+              name="text"
+              class="feedback-input mess"
+              placeholder="Wiadomość"
+            ></textarea>
+            <div class="mess-error"></div>
+            <input class="footer-btn" type="submit" value="WYŚLIJ" />
+            <input type="hidden" name="_captcha" value="false" />
+          </form>
+        </div>
+        <div class="info">
+          <div class="contact-info">
+            <h3>Skontaktuj się z nami</h3>
+            <p class="email">
+              <i class="fas fa-mail-bulk"></i> randomEMAIL@gmail.com
+            </p>
+            <p class="phone">
+              <i class="fas fa-phone-square-alt"></i> +48 123 456 789
+            </p>
+          </div>
+          <div class="social">
+            <h3>Social media</h3>
+            <div class="social-media">
+              <a href="https://pl-pl.facebook.com/" target="blank_space"
+                ><h1 class="fb">Facebook</h1></a
+              >
+              <a href="https://twitter.com/?lang=pl" target="blank_space"
+                ><h1 class="tw">Twitter</h1></a
+              >
+              <a href="https://www.instagram.com/" target="blank_space"
+                ><h1 class="ig">Instagram</h1></a
+              >
+              <a href="https://pl.linkedin.com/" target="blank_space"
+                ><h1 class="ld">Linkedin</h1></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <?php include 'footer.php' ?> 
+
+    
+
+    <script src="/js/footer.js"></script>
+    <script src="/js/diet.js"></script>
+    <script src="/js/nav.js"></script>
+  </body>
+
+
+
+  
+</html>

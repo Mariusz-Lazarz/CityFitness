@@ -1,0 +1,233 @@
+[
+    {
+        "id": 1,
+        "type": 1500,
+        "day": "1",
+        "name": "Owsianka z jabłkiem, orzechami",
+        "ingredients": ["płatki owsiane (40g)","orzechy nerkowca (15g)","jabłko (120g)","skyr (100g)","banan (120g)","cynamon"],
+        "kcal": 447,
+        "protein": 21,
+        "fats": 8,
+        "carbs": 78
+    },
+    {
+        "id": 2,
+        "type": 1500,
+        "day": "1",
+        "name": "Pierś z indyka w sosie pomidorowym",
+        "ingredients": ["pierś z indyka (100g)","oliwa z oliwek (5g)","passata pomidorowa (200g)","makaron (100g)","sałatka z ogórkiem i pomidorem"],
+        "kcal": 618,
+        "protein": 40,
+        "fats": 13,
+        "carbs": 81
+    },
+    {
+        "id": 3,
+        "type": 1500,
+        "day": "1",
+        "name": "Zapiekane kanapki z mozzarella ",
+        "ingredients": ["2 bułki wieloziarniste (140g)","mozzarella tarta (30g)","polędwica (30g) ","pomidor","ogórek","papryka"],
+        "kcal": 417, 
+        "protein": 27,
+        "fats": 16,
+        "carbs": 41
+    },
+    {
+        "id": 4,
+        "type": 1500,
+        "day": "2",
+        "name": "Koktail",
+        "ingredients": ["płatki owsiane (30g)","masło orzechowe (15g)","1 banan", "1 kiwi", "mleko 0.5% (300ml)"],
+        "kcal": 473,
+        "protein": 21,
+        "fats": 12,
+        "carbs": 74
+    },
+    {
+        "id": 5,
+        "type": 1500,
+        "day": "2",
+        "name": "Ryż z jajkiem",
+        "ingredients": ["ryż (50g)", "oliwa (5g)","1 jajko", "warzywa wedle uznania"],
+        "kcal": 365,
+        "protein": 14,
+        "fats": 11,
+        "carbs": 48
+    },
+    {
+        "id": 6,
+        "type": 1500,
+        "day": "2",
+        "name": "Pieczony łosoś",
+        "ingredients": ["Łosoś (150g)","Bataty (300g)","Brokuł (200g)","oliwa (10g)","pieprz","sól","cytryna"],
+        "kcal": 599,
+        "protein": 41,
+        "fats": 17,
+        "carbs": 70
+    },
+    {
+        "id": 7,
+        "type": 1500,
+        "day": "3",
+        "name": "Jajecznica",
+        "ingredients": ["jajka (150g)","boczek (25g)","bułka wieloziarnista (70g)","szczypiorek","szczypta soli i pieprzu"],
+        "kcal": 432,
+        "protein": 28,
+        "fats": 26,
+        "carbs": 21
+    },
+    {
+        "id": 8,
+        "type": 1500,
+        "day": "3",
+        "name": "Tofu z ryżem",
+        "ingredients": [" tofu wędzone (100g)","ryż parboiled (100g)","cukinia (100g)","1 papryka ","1 marchew","cebula ","passata pomidorowa (200g)"],
+        "kcal": 438,
+        "protein": 28,
+        "fats": 10,
+        "carbs": 108
+    },
+    {
+        "id": 9,
+        "type": 1500,
+        "day": "3",
+        "name": "Pancake",
+        "ingredients": ["mąka (70g)","mleko (90ml)","1 jajko","szczypta soli ","słodzik","5g proszku do pieczenia"," banan (120g)"],
+        "kcal": 494,
+        "protein": 19,
+        "fats": 10,
+        "carbs": 85
+    },
+    {
+        "id": 10,
+        "type": 1500,
+        "day": "4",
+        "name": "Zielone smoothie",
+        "ingredients": ["roszponka (50g)","banan (120g)","maliny (70g)","masło orzechowe (20g)","odżywka białkowa (30g)","woda"],
+        "kcal": 452,
+        "protein": 34,
+        "fats": 17,
+        "carbs": 43
+    },
+    {
+        "id": 11,
+        "type": 1500,
+        "day": "4",
+        "name": "Makaron z jajkiem i warzywami",
+        "ingredients": ["makaron spaghetti (100g)","1 jajko","oliwa z oliwek (10g)","ulubione warzywa"],
+        "kcal": 450,
+        "protein": 15,
+        "fats": 17,
+        "carbs": 59
+    },
+    {
+        "id": 12,
+        "type": 1500,
+        "day": "4",
+        "name": "Jaglanka",
+        "ingredients": ["borówki (80g)","banan (120g)","kasza jaglana (90g)","migdały (10g)","odżywka białkowa (15g)"],
+        "kcal": 598,
+        "protein": 26,
+        "fats": 9,
+        "carbs": 106
+    },
+    {
+        "id": 13,
+        "type": 1500,
+        "day": "5",
+        "name": "Omlet na słodko",
+        "ingredients": ["2 jajka","powidła śliwkowe (40g)","1 łyżka masła","banan"],
+        "kcal": 389,
+        "protein": 14,
+        "fats": 15,
+        "carbs": 48
+    },
+    {
+        "id": 14,
+        "type": 1500,
+        "day": "5",
+        "name": "Tortilla z kurczakiem",
+        "ingredients": ["2 tortille","pierś z kurczaka (100g)","oliwa (5g)","warzywa wedle uznania","przyprawa do kurczaka"],
+        "kcal": 626,
+        "protein": 39,
+        "fats": 21,
+        "carbs": 70
+    },
+    {
+        "id": 15,
+        "type": 1500,
+        "day": "5",
+        "name": "Skyr ala deser",
+        "ingredients": ["1 skyr","1 jabłko ","1 kiwi","1 baton twix"],
+        "kcal": 478,
+        "protein": 14,
+        "fats": 13,
+        "carbs": 73
+    },
+    {
+        "id": 16,
+        "type": 1500,
+        "day": "6",
+        "name": "Kanapki z twarogiem",
+        "ingredients": ["2 bulki wieloziarniste (140g)","twaróg półtłusty (80g)","pomidor"],
+        "kcal": 379,
+        "protein": 28,
+        "fats": 10,
+        "carbs": 44
+    },
+    {
+        "id": 17,
+        "type": 1500,
+        "day": "6",
+        "name": "Karkówka z ryżem",
+        "ingredients": ["karkówka (100g)","ryż parboiled (100g)","passata pomidorowa (50g)","mix sałat"],
+        "kcal": 607,
+        "protein": 26,
+        "fats": 16,
+        "carbs": 87
+    },
+    {
+        "id": 18,
+        "type": 1500,
+        "day": "6",
+        "name": "Zapiekanki z serem mozzarella",
+        "ingredients": ["3 bułki wieloziarniste","mozzarella (40g)","przyprawy"],
+        "kcal": 518,
+        "protein": 29,
+        "fats": 17,
+        "carbs": 62
+    },
+    {
+        "id": 19,
+        "type": 1500,
+        "day": "7",
+        "name": "Kanapki z jajkiem",
+        "ingredients": ["2 bułki wieloziarniste (140g)","2 jajka","majonez (5g)"," szczypiorek"],
+        "kcal": 468,
+        "protein": 27,
+        "fats": 22,
+        "carbs": 41
+    },
+    {
+        "id": 20,
+        "type": 1500,
+        "day": "7",
+        "name": "Makaron ze szpinakiem i mozzarellą",
+        "ingredients": ["makaron świderki (100g)","szpinak (200g)","mozzarella (60g)","sól, pieprz","ulubione warzywa"],
+        "kcal": 560,
+        "protein": 30,
+        "fats": 7,
+        "carbs": 94
+    },
+    {
+        "id": 21,
+        "type": 1500,
+        "day": "7",
+        "name": "Smoothie",
+        "ingredients": ["gruszka (130g)","jabłko (100g)","roszponka (50g)","banan (120g)","olej lniany (10g)","odżywka białkowa WPC (30g)"],
+        "kcal": 444,
+        "protein": 27,
+        "fats": 13,
+        "carbs": 60
+    }
+]
